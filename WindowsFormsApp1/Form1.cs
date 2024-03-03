@@ -26,10 +26,8 @@ namespace WindowsFormsApp1
         {
             String text = textBox1.Text;
 
-            Console.WriteLine(text);
-
             Output.Font = new Font(Output.Font, FontStyle.Bold);
-            Output.Text = "Halo " + text;;
+            Output.Text = "Halo " + text;
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
